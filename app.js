@@ -1,4 +1,4 @@
-const SCRIPT_URL = "https://script.google.com/macros/s/AKfycbzMgmiNvyJyiacBYqJEp8Nhg5GU7AqEtfN4ilq7aF5EmuKBdMdQsQ6YWy2UmCFqFYzMqA/exec";
+const SCRIPT_URL = "https://script.google.com/macros/s/AKfycbw9NuxMz9AdNiDLS7iJHpnRQDdbeEJtC51rH8FXT4qJLxMuQ4YSPeZBq1iKvWuRFPfv/exec";
 
 let entries = [];
 let editIndex = null;
