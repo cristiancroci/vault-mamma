@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vault Mamma</title>
+  <link rel="manifest" href="manifest.json">
+  <script src="app.js" defer></script>
+</head>
+<body>
+
+  <h2>Vault Password Mamma</h2>
+
+  <div id="lista"></div>
+
+  <h3>Nuova voce</h3>
+  <input id="nome" placeholder="Nome servizio">
+  <input id="utente" placeholder="Utente">
+  <input id="password" placeholder="Password">
+  <input id="codice" placeholder="Codice / PIN">
+  <input id="url" placeholder="URL">
+  <input id="note" placeholder="Note">
+
+  <button onclick="aggiungiVoce({
+    nome: nome.value,
+    utente: utente.value,
+    password: password.value,
+    codice: codice.value,
+    url: url.value,
+    note: note.value
+  })">Aggiungi</button>
+
+</body>
+</html>
