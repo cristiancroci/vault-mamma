@@ -52,15 +52,15 @@ function render() {
   dati.voci.forEach(v => {
     const el = document.createElement("div");
     el.className = "voce";
-    el.innerHTML = `
-      <b>${v.nome}</b><br>
-      Utente: ${v.utente || ""}<br>
-      Password: ${v.password || ""}<br>
-      Codice: ${v.codice || ""}<br>
-      URL: ${v.url || ""}<br>
-      Note: ${v.note || ""}<br>
-      <button onclick="eliminaVoce(${v.id})">Elimina</button>
-    `;
+   el.innerHTML = `
+  <b>${v.nome}</b><br><br>
+  <div><strong>Utente:</strong> ${v.utente || ""}</div>
+  <div><strong>Password:</strong> ${v.password || ""}</div>
+  <div><strong>Codice:</strong> ${v.codice || ""}</div>
+  <div><strong>URL:</strong> ${v.url || ""}</div>
+  <div><strong>Note:</strong> ${v.note || ""}</div>
+  <button onclick="eliminaVoce(${v.id})">Elimina</button>
+`;
     lista.appendChild(el);
   });
 }
